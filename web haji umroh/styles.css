@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body{
+  font-family: "Barlow", sans-serif;
+}
+
+/* font */
+.barlow{
+  font-family: "Barlow", sans-serif;
+}
+
+.nunito{
+  font-family: "Nunito", sans-serif;
+}
+
+.text-super-besar{
+  font-size: 60px;
+}
+
+.text-besar{
+  font-size: 50px;
+}
+
+.text-sedang{
+  font-size: 30px;
+}
+
+.text-normal{
+  font-size: 18px;
+}
+
+.text-kecil{
+  font-size: 14px;;
+}
+
+/*warna */
+.text-hitam{
+  color: black;
+}
+
+.text-abu{
+  color: #b7b7b7;
+}
+
+.text-oren{
+  color:#ffac77
+}
+
+.text-biru{
+  color:#71a8ff;
+}
+
+/* Navbar */
+.scroll-nav-active{
+  background-color: #1f1f1f;
+}
+.nav-link{
+  font-size: 18;
+  font-weight: 500;
+  margin: 0px 10px;
+  color: white;
+}
+
+/* button */
+.btn{
+  font-size: 18px;
+  font-weight: 500px;
+  border-radius: 30px;
+  padding: 10px 25px ;
+}
+
+.btn-outline-warning{
+  border: 2px solid #f9b88e;
+}
+
+.btn-warning{
+  background-color: #f9b88e;
+}
+
+.btn-info{
+  background-color: #e5efff;
+  border: 0px;
+}
+.btn-info:hover{
+  background-color: #5c9bff;
+  border: 0px;
+}
+
+/* Hero */
+#hero{
+  background-image: url('images/bg-mekah.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  background-position: center;
+  padding-top: 100px;
+}
+
+/* Services */
+#services{
+  background-image: url(images/bg-services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* Watch */
+#watch{
+  background-image: linear-gradient(to right, #cccac7 0%, #f8f6f2 50%);
+}
